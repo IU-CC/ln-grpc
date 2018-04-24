@@ -52,9 +52,9 @@ public class Main {
         }
     }
 
-    private static final String CERT_PATH = "~/.lnd/tls.cert";
+    private static final String CERT_PATH = "/home/ubuntu/.lnd/tls.cert";
 //    private static final String CERT_PATH = "/Users/UserName/IU/K/tls.cert";
-    private static final String MACAROON_PATH = "~/.lnd/admin.macroon";
+    private static final String MACAROON_PATH = "/home/ubuntu/.lnd/admin.macroon";
 //    private static final String MACAROON_PATH = "/Users/UserName/IU/K/admin.macroon";
     private static final String HOST = "localhost";
     private static final int PORT = 10009;
